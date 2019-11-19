@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { getMember } from "./services/member";
 import Member from "./component/Member";
+import Header from "./component/Header";
 
 class App extends React.Component {
   constructor() {
@@ -18,12 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <p>InfoImage PD</p>
-          <h1>Meet Who Are Behind The Scenes</h1>
-          <ul className="circle"></ul>
-        </header>
-
+        <Header circleLength={this.state.members.length} />
         <section className="team-members">
           <div className="container">
             {this.state.members.map(member => (

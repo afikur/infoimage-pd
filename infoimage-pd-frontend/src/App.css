@@ -1,6 +1,3 @@
-/* --------------------------------------------
-- General
------------------------------------------------*/
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -13,10 +10,6 @@ section {
   width: 1200px;
   margin: 0 auto;
 }
-
-/* --------------------------------------------
-- Header Style Begin
------------------------------------------------*/
 
 header {
   margin-top: 60px;
@@ -34,33 +27,6 @@ header p {
   margin: 0;
 }
 
-header ul {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  height: 16px;
-}
-
-header ul li {
-  width: 16px;
-  height: 16px;
-  background: #bd32fd;
-  border-radius: 50%;
-  float: left;
-  margin-right: 5px;
-}
-
-header ul li:last-child {
-  margin-right: 0;
-}
-
-/* --------------------------------------------
-- Header Style End
------------------------------------------------*/
-
-/* --------------------------------------------
-- Body Style Start
------------------------------------------------*/
 section.team-members {
   margin-top: 7em;
 }
@@ -91,7 +57,3 @@ section.team-members .member h4 {
 section.team-members .member img.linkedin {
   height: 16px;
 }
-
-/* --------------------------------------------
-- Body Style Start
------------------------------------------------*/
